@@ -1,0 +1,55 @@
+package com.session2.employeeapp;
+/*
+ * 		
+				Employee (id name and salary)
+					|
+		--------------------------------
+		|								|
+	PartTimeEmployee			FullTimeEmployee
+	noOfHr, payPerHr			ppfAccNo, tax
+	
+		payment()				payment()
+ */
+class Employee{
+	private int id;
+	private String name;
+	
+	public Employee(int id, String name) {
+		this.id = id;
+		this.name = name;
+	}
+	
+	public void print() {
+		System.out.println("id : "+ id +" name: "+name);
+	}
+	public double getSalary() {
+		return 0;
+	}
+}
+class FullTimeEmployee extends Employee{
+	private int noOfHr;
+	private int payPerHr;
+	
+	public FullTimeEmployee(int id , String name, int noOfHr,int payPerHr) {
+		super(id, name);
+		this.noOfHr=noOfHr;
+		this.payPerHr=payPerHr;
+	}
+	public void print() {
+		super.print();
+		System.out.println("noOfHr : "+ noOfHr +" payPerHr: "+payPerHr);
+	}
+	
+}
+
+class PartTimeEmployee extends  Employee{
+	
+}
+
+public class F_InhitanceEx {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

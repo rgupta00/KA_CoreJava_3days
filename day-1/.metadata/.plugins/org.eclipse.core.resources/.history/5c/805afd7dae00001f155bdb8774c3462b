@@ -1,0 +1,8 @@
+package com.session2.employeeapp;
+
+public class C_SimpleExOverriding {
+	public static void main(String[] args) {
+		//u must have min 2 classes base class one is drived class
+	}
+
+}

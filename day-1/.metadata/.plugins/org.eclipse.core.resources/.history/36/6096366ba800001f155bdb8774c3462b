@@ -1,0 +1,22 @@
+package com.session2.employeeapp;
+/*
+ * 		
+				Employee (id name and salary)
+					|
+		--------------------------------
+		|								|
+	PartTimeEmployee			FullTimeEmployee
+	noOfHr, payPerHr			ppfAccNo
+	
+		payment()				payment()
+ */
+class Employee{
+	
+}
+public class F_InhitanceEx {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

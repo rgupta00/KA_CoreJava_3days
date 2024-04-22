@@ -1,0 +1,34 @@
+package com.session2.passangerproblem;
+//a passanger whose name is raj is moving from    Delhi	to Taj Mahal using Train
+class Train{
+	public void move(String s, String d) {
+		System.out.println("moving from "+ s +" to "+ d +" using Train");
+		}
+}
+class Car{
+	public void move(String s, String d) {
+		System.out.println("moving from "+ s +" to "+ d +" using Car");
+		}
+}
+class Passenger{
+	
+	private String name;
+	
+	public Passenger(String name) {
+		this.name = name;
+	}
+	public void travel(String s, String d, Car c) {
+		System.out.println("passanger name: "+ name);
+		c.move(s, d);
+	}
+}
+//if one req change u have to change code at many location:
+public class A_PassangerProblem {
+	public static void main(String[] args) {
+		//Train train=new Train();
+		Car car=new Car();
+		Passenger passenger=new Passenger("raj");
+		passenger.travel("Delhi", "TajMahal", car);
+		
+	}
+}

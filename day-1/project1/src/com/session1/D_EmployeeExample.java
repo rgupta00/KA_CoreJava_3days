@@ -38,8 +38,8 @@ class Employee{
 public class D_EmployeeExample {
 	public static void main(String[] args) {
 		Employee employee1=new Employee(12,"bob",8000);
-		employee1.id=666;
-		employee1.salary=8000000;
+		employee1.changeSalary(700);
+		
 		
 		
 		

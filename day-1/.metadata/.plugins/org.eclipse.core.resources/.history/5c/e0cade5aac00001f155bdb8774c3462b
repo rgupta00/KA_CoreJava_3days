@@ -1,0 +1,19 @@
+package com.session2.employeeapp;
+//function overloading: compile time polymorphism...
+class Calculator{
+	public int add(int a, int b) {
+		return a+b;
+	}
+	public int add(int a, int b, int c) {
+		return a+b+c;
+	}
+}
+public class A_FunctionOverlading {
+
+	public static void main(String[] args) {
+		
+		Calculator calculator=new Calculator();
+		int val=calculator.add(3, 2,9);
+		System.out.println(val);
+	}
+}

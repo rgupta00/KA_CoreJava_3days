@@ -4,12 +4,16 @@ how we are going to do ?
 J2SE: Java 2 std edition
 
 day 1: 
+------------------
 basics of java why what and how?
 procedural programming: looping arrray conditaional statement
 intro to OO
 	class , object , abs , encapsulation, modulary, inhertance, polymorphism
 	ctr, setter, getter , logic method
 how to write inheritance
+polymorphism
+
+---------------------------------------
 
 day2:
 String class, pefromance relations question
@@ -17,11 +21,193 @@ exception handing: Checked and uncheked ex? GPP(good programming practice)
 IO input and output
 collection: data str :) ready made ds, how to use that
 
+------------------------------------------
 day 3:
-Java threads,solid 
+Java threads,solid , db programming
 ui : swing desktop application, mvc design patterns
+mini project
+----------------------------
 
 books:
 * head first core java
 * effective java
 * clean code
+
+
+SW setup:
+----------
+1. jdk: java dev kit
+2. ide: eclipse/intellij ide
+
+
+=====================================
+Dayt 1:
+=====================================
+What is Java?
+OO programming language + JVM (java virtual machine) + rich set of api
+														collection, threads, networking, db progamming
+														AI
+:)
+
+How to write hello world in java?
+we have to write code in a  class, with main method 
+
+class Hello{
+	public static void main(String args[]){
+			System.out.println("hello all champs!");
+	}
+}
+
+what is most imp thing in programming ?
+	logic, how to thing the logic
+	dry run
+	
+	i want to write 20 stars
+	
+*****
+*****
+*****
+*****
+*****
+31,28,31,30,31,30,31,31,30,31,30,31 
+
+
+Q1. print starts
+Q2. date problem
+Q3. result calculation
+		p c maths
+		89, 90 , 78 maths 
+		1. find the avg marks
+		2. find out this rank
+			if avg >90 A+
+			  avg >=80 A
+			  avg >=70 B
+		
+------------------------------------
+Procedural programming vs OO programming
+
+Procedural programming:
+data + logic those are seprate
+Procedural programming there is possiblity of misuse of the data
+
+
+OO programming:
+better way encapsulate the code into a class
+so that data can not be misuse
+
+
+object orientation:
+-------------------
+what is object 
+	
+what is class
+	aka cookie cutter
+	use to create the object
+	template .....
+	class =data + method
+	
+	data: local data
+		instance data
+		static data
+	
+	methods :
+		ctr
+		getter
+		setter
+		business logic methods
+		
+	visiblity level: private
+					default
+					protected
+					public *
+		
+class Employee{
+	//instance data: per object
+	private int id;
+	private String name;
+	private double salary;
+	
+	//class data: class variable: per class
+	private static companyName="abc";
+	
+	//methods: ctr: have same name as of class, default , parameterized , copy ctr
+	public Employee(){
+	}
+	//setter is used to set the values
+	public void setSalary(double sal){
+			int temp=4;// local variable , define inside a method
+			salary=sal;
+	}
+
+	//getter
+	public double getSalary(){
+		return salary;
+	}
+	//Logic
+	public double netSalary(){
+			return salary * 0.8;
+	}
+}	
+	
+object: are runtime example of class
+
+	Employee e=new Employee();
+
+from a class i can create multiple objects
+
+encapsulation: u should not allowed  anybody to change the variable directly
+			i dont allow anybody with dirty feet in my mind
+			
+abstraction: focus on essential thing ignore the unnessary details*
+	encapsulation vs abstraction
+	how to achive abs: abstract class vs interface*
+	
+inheritance:
+		provide u code resulability
+		
+		single    Y
+		multiple  X  ?
+		hierachical Y
+		multilevel  Y
+		
+	
+polymorphism
+		one name many forms
+		
+								polymorphism
+									|
+		-------------------------------------------------
+		|												|
+		Run time poly..							compile time poly...
+		Overriding										|
+								--------------------------------------
+								|				|			|			
+								fun over	operator over  template classes
+											  |
+											--------------
+											|			 |
+											explicit	implicit
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+

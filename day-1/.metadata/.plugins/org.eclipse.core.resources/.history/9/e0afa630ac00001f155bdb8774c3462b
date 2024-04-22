@@ -1,0 +1,16 @@
+package com.session2.employeeapp;
+
+class Calculator{
+	public int add(int a, int b) {
+		return a+b;
+	}
+}
+public class A_FunctionOverlading {
+
+	public static void main(String[] args) {
+		
+		Calculator calculator=new Calculator();
+		int val=calculator.add(3, 2);
+		System.out.println(val);
+	}
+}
