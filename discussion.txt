@@ -188,22 +188,49 @@ polymorphism
 											|			 |
 											explicit	implicit
 		
+class A{
+	int i;
+
+}
+class B extends A{
+	int j;
+}	
+		
+		
+				Employee (id name and salary)
+					|
+		--------------------------------
+		|								|
+	PartTimeEmployee			FullTimeEmployee
+	noOfHr, payPerHr			ppfAccNo
+	
+		payment()				payment()
+		
+		
+inhertance?
+abstract class?
+interface?
 		
 		
 		
+function overloading?
+--------------------
+Loose couping and high cohesion
+
+u should alway design ur application as per interface (dont think kw interface)
+
+
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+			
+				Account (id name and balance)
+					|
+		--------------------------------
+		|								|
+	SavingAccount			CurrentAccount
+	intrestRate				overdraftAmount
+	
+		getTotal()				getTotal()
 		
 
 

@@ -2,7 +2,6 @@ package com.session2.passangerproblem;
 
 //a passanger whose name is raj is moving from    Delhi	to Taj Mahal using Train
 //u can use abs using : abs class vs interface
-
 //abstract class Vehicle {
 //	public abstract void move(String s, String d);
 //}
@@ -11,19 +10,19 @@ interface Vehicle {
 	public abstract void move(String s, String d);
 }
 
-class Train implements Vehicle {
+class Train extends Vehicle {
 	public void move(String s, String d) {
 		System.out.println("moving from " + s + " to " + d + " using Train");
 	}
 }
 
-class Car implements Vehicle {
+class Car extends Vehicle {
 	public void move(String s, String d) {
 		System.out.println("moving from " + s + " to " + d + " using Car");
 	}
 }
 
-class Bus implements Vehicle {
+class Bus extends Vehicle {
 	public void move(String s, String d) {
 		System.out.println("moving from " + s + " to " + d + " using Bus");
 	}
