@@ -1,0 +1,27 @@
+3 days 
+how we are going to do ?
+
+J2SE: Java 2 std edition
+
+day 1: 
+basics of java why what and how?
+procedural programming: looping arrray conditaional statement
+intro to OO
+	class , object , abs , encapsulation, modulary, inhertance, polymorphism
+	ctr, setter, getter , logic method
+how to write inheritance
+
+day2:
+String class, pefromance relations question
+exception handing: Checked and uncheked ex? GPP(good programming practice)
+IO input and output
+collection: data str :) ready made ds, how to use that
+
+day 3:
+Java threads,solid 
+ui : swing desktop application, mvc design patterns
+
+books:
+* head first core java
+* effective java
+* clean code
