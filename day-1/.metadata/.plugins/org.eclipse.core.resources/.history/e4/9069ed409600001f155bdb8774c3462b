@@ -1,0 +1,21 @@
+package com.session1;
+//i want to create employee class
+class Employee{
+	private int id;
+	private String name;
+	private double salary;
+	
+	//ctr: defualt ctr of the class
+	public Employee() {
+		System.out.println("default ctr");
+	}
+	
+	
+}
+public class D_EmployeeExample {
+	public static void main(String[] args) {
+		Employee employee1=new Employee();
+		
+	}
+
+}
