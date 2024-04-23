@@ -413,9 +413,90 @@ https://interviewnoodle.com/exception-in-java-89a0b41e0c45
 
 
 
+User define exception:
+throw vs throws
+try
+catch 
+throw
+throws
+finally
+
+Key topics:
+-----------------
+interface vs abst class
+ex handing
+string
+java collection
+threds
+
+
+some imp question on exception handing
+---------------------------------------
+Object class in java
+	toString()
+	equals()
+	hashCode()
+	finalize()
+
+
+------------------
+collection: ArrayList and HashMap*
+
+Q: create an application to store the Product information
+	id
+	name
+	price
+	
+ i want to do crud operation on this productstore
+ C: create
+ R: read
+ U: update
+ D: Delete
+ 
+--------------------------
+Data structure:
+	Stack
+	Queue
+	LinkList
+	Tree
+	
+	what java says u dnot hv to create them
+	
+	readymade ds:" java collection"
+	aka readymade ds in java
+	how to use them?
+	performance consideration?
+ 
 
 
 
+Basics of java collection api
+------------------------
+ 	readymade ds:" java collection"
+	aka readymade ds in java
+	how to use them?
+	performance consideration?
+	
+	Collection
+		List: allow duplicate
+			LinkList Vector ArrayList
+			PriorityQueue
+			
+		Set
+			HashSet
+			LinkedHashSet
+			TreeSet
+		Map
+			HashMap
+			LinkedHashMap
+			TreeMap
+			
+		
+
+Day 3:
+------
+basics of annotations, annonymous inner class
+Java Threads, concurrency
 
 
 
