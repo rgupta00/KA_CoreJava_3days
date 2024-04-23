@@ -1,8 +1,0 @@
-package com.session2.employeeapp;
-
-public class B_OpOverloading {
-
-	public static void main(String[] args) {
-		
-	}
-}
