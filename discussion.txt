@@ -604,6 +604,46 @@ inner class
 	Examples
 
 
+Multithreading:
+
+
+
+job started by the thread : B
+job started by the thread : A
+job started by the thread : C
+job end by the thread : B
+job end by the thread : A
+job end by the thread : C
+
+
+job started by the thread : A
+job started by the thread : C
+job started by the thread : B
+job end by the thread : B
+job end by the thread : C
+job end by the thread : A
+
+
+annotations java 8 new features
+
+what you can do after this training?
+
+Core java in depth
+https://www.youtube.com/playlist?list=PLv2-IhRmhbySgIQo3rH8KnclTSOYAp2xG
+
+java interview prepration
+https://www.youtube.com/watch?v=Sp4VL1halzA&list=PLv2-IhRmhbyQK19NcFRRJbK9Xf2YX_BgW&ab_channel=BusyCoderAcademy
+
+spring basics
+https://www.youtube.com/watch?v=AjU02shd8a8&list=PLv2-IhRmhbyT-N2b5ctc9wEBSOXyiejc6&ab_channel=BusyCoderAcademy
+
+spring boot playlist
+https://www.youtube.com/playlist?list=PLv2-IhRmhbySxOF-hJu2wIvkGMaYg7Imv
+
+
+
+
+
 
 
 
