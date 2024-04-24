@@ -596,6 +596,13 @@ c) sort and print as per price
 
 
 
+inner class
+----------
+	top level inner class
+	method local inner class
+	annonymous inner classes
+	Examples
+
 
 
 
