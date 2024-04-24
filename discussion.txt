@@ -453,6 +453,21 @@ Q: create an application to store the Product information
  U: update
  D: Delete
  
+ 3 tiers
+ controller ----------------------- service layer --------------------- dao layer ------------ db
+																	DAO: crud operation
+																		intract with db
+	RES								brain of ur application
+									data validation
+									tx
+									sec
+									caching
+	
+Full stack dev
+	
+ 
+ Enterprise edition 3 tier arch
+ 
 --------------------------
 Data structure:
 	Stack
@@ -495,13 +510,89 @@ Basics of java collection api
 
 Day 3:
 ------
-basics of annotations, annonymous inner class
+Java collection
+		List: allow duplicate
+			LinkList Vector ArrayList
+			PriorityQueue
+			
+		Set
+			HashSet
+			LinkedHashSet
+			TreeSet
+		Map
+			HashMap
+			LinkedHashMap
+			TreeMap
+
+inner class
+	top level inner class
+	method local inner class
+	annonymous inner classes
+	Examples
+
 Java Threads, concurrency
+	process vs program vs threads
+	Java threads life cycle
+	hello world
+	dead lock
+	producer consumer problem
+	
+annotations
+
+Intro to Swing programming
+
+Examples and case study
+
+Roadmap
 
 
 
+Basics of java collection api
+------------------------------
+ 	readymade ds:" java collection"
+	aka readymade ds in java
+	how to use them?
+	performance consideration?
+	
+	Collection
+		List: allow duplicate
+			LinkList 
+			Vector 
+			ArrayList
+			PriorityQueue
+			
+		Set
+			HashSet: interanlly use hashing*
+				hashing make searching optimal operation
+				Big O Notation: O(1)
+				
+				neighter sorted nor ordered
+				
+			LinkedHashSet
+				it maintain the inerstion order
+			TreeSet
+				put the data into to sorted order
+		Map
+			HashMap
+			LinkedHashMap
+			TreeMap
 
 
+Assignements:
+-----------------
+Q: We have list of products 
+class Product{
+	private int id;
+	private String name;
+	private double price;
+	private String cat;
+}
+
+a)create list of list
+b) print the list
+c) sort and print as per id
+c) sort and print as per name
+c) sort and print as per price
 
 
 

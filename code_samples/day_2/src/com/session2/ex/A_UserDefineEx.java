@@ -39,10 +39,11 @@ class Account{
 	public Account(int id, String name, double balance) throws AccountCreationException{
 		if(balance<1000) {
 			throw new AccountCreationException("account can not be created min bal must be 1000 usd");
+		}else {
+			this.id = id;
+			this.name = name;
+			this.balance = balance;
 		}
-		this.id = id;
-		this.name = name;
-		this.balance = balance;
 	}
 	
 	public void withdraw(double amount)throws NotSufficientFundException {
